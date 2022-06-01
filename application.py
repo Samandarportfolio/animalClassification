@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 st.title('Animal Classification Model')
-st.text('Hayvonlarni farqlab beruvchi model'\n
+st.text('Hayvonlarni farqlab beruvchi model '
        'by me')
 #Rasmnni yuklash
 file = st.file_uploader('Rasm yukash', type = ['jpeg', 'png', 'gif', 'svg', 'webp'])
