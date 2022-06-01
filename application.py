@@ -7,7 +7,7 @@ st.title('Animal Classification Model')
 st.text('Hayvonlarni farqlab beruvchi model '
        'by me')
 #Rasmnni yuklash
-file = st.file_uploader('Rasm yukash', type = ['jpeg', 'png', 'gif', 'svg', 'webp'])
+file = st.file_uploader('Rasm yukash', type = ['jpeg','jpg','heic', 'png', 'gif', 'svg', 'webp'])
 if file:
     img  = PILImage.create(file)
     st.image(file)
