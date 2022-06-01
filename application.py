@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 st.title('Animal Classification Model')
-
+st.button('Click me')
 #Rasmnni yuklash
 file = st.file_uploader('Rasm yukash', type = ['jpeg', 'png', 'gif', 'svg', 'webp'])
 if file:
