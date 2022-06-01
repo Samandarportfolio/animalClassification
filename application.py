@@ -25,5 +25,5 @@ if file:
     st.info(f'Bashorat : {probs[pred_id]*100:.1f}%')
     
     #plotting
-    fig = rpx.bar(x=probs*100, y = model.dls.vocab)
+    fig = px.bar(x=probs*100, y = model.dls.vocab)
     st.plotly_chart(fig)
